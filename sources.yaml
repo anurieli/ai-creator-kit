@@ -1,0 +1,34 @@
+# Inspiration Sources
+# These are the thinkers, creators, newsletters, and websites that inform your content.
+# Managed by the /add-source skill. You can also edit this file directly.
+
+thought_leaders: []
+
+business_figures: []
+
+newsletters: []
+
+websites: []
+
+linkedin_creators: []
+
+carousel_creators: []
+
+design_accounts: []
+
+video_creators: []
+
+# Research Instructions
+# This block guides how sources are prioritized during content research.
+# Do not remove this section — skills read it during content creation.
+research_instructions:
+  priority_order:
+    - thought_leaders
+    - business_figures
+    - newsletters
+    - websites
+  usage: |
+    When researching a topic, check relevant sources first.
+    Cross-reference ideas across multiple sources for depth.
+    Always attribute specific frameworks or quotes to their source.
+    Prioritize sources whose expertise matches the topic.

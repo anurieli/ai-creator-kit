@@ -1,0 +1,14 @@
+# Post History
+# Auto-populated by /carousel and /batch-carousels skills
+# Used to track variety and avoid repetition
+
+# Schema:
+# - date: YYYY-MM-DD
+#   title: ""
+#   template: ""
+#   pillar: ""
+#   platform: ""
+#   slides: 0
+#   status: draft | published
+
+posts: []

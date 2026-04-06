@@ -1,0 +1,101 @@
+# Content Pillars
+# This file defines the core themes you want to be known for on LinkedIn.
+# Each pillar has an allocation percentage that guides how often you post about each theme.
+# The allocations should sum to 100%.
+#
+# Run /digest-brand or update this file manually as your strategy evolves.
+# The /linkedin-post and /batch-create skills read this file to ensure variety and balance.
+
+pillars:
+  - name: "Expertise & Craft"
+    description: >
+      The deep, specific knowledge that comes from doing the work. Tactical lessons,
+      hard-won insights, and the honest truths about how things actually work in your field.
+      This pillar makes you the expert readers consult, not just follow.
+    allocation: 35
+    example_angles:
+      - "The specific skill most people in your field overlook"
+      - "A framework or system you've developed from experience"
+      - "A common mistake you see professionals making"
+      - "The honest truth about how [industry process] actually works"
+      - "What you know now that you wish you'd known 5 years ago"
+    typical_formats:
+      - listicle
+      - framework
+      - contrarian-take
+
+  - name: "Personal Stories"
+    description: >
+      Real experiences from building, working, and living — told with honesty and a clear
+      takeaway. Stories build trust, humanize the brand, and generate the highest-quality
+      comments. They also do the work that tactical posts cannot: they let the audience
+      know who you actually are.
+    allocation: 25
+    example_angles:
+      - "A failure and what it revealed"
+      - "A moment where your assumptions were wrong"
+      - "A conversation that changed how you think"
+      - "An early experience that shaped your current approach"
+      - "A decision you made that felt risky — and how it turned out"
+    typical_formats:
+      - story-lesson
+      - i-was-wrong
+      - before-after
+      - milestone-insight
+
+  - name: "Industry Commentary"
+    description: >
+      Your informed take on trends, debates, and developments in your industry.
+      This pillar establishes you as someone who has a point of view — not just skills,
+      but judgment. Opinion posts, reactions to industry news, and takes on where
+      the field is heading.
+    allocation: 20
+    example_angles:
+      - "A trend you think is being overhyped"
+      - "A practice the industry should retire"
+      - "A debate in your field and where you stand"
+      - "What's being missed in the current conversation about [topic]"
+      - "Your prediction about where [industry/field] is heading"
+    typical_formats:
+      - contrarian-take
+      - framework
+      - poll-context
+
+  - name: "Culture & Values"
+    description: >
+      Who you are, what you care about, and how you work. Behind-the-scenes glimpses,
+      team dynamics, values in action, and the human side of building something.
+      This pillar builds community and attracts people who want to work with, for,
+      or alongside you — not just learn from you.
+    allocation: 20
+    example_angles:
+      - "How you make decisions in your company/work"
+      - "A principle you've never compromised on"
+      - "What your team/clients would say about working with you"
+      - "A belief about how work should work"
+      - "Something you're learning about yourself as a builder/leader"
+    typical_formats:
+      - story-lesson
+      - before-after
+      - milestone-insight
+
+# Posting Cadence
+# Define your posting frequency and preferred days.
+# The /batch-create skill uses this to schedule posts in your weekly batch.
+posting_cadence:
+  posts_per_week: 4
+  preferred_days:
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+  preferred_times: "Afternoon (3-6pm your timezone) — 2026 data shows late-day engagement trending up"
+  batch_mode: true  # Set to true if you prefer writing a week at once vs. daily
+  format_mix: >
+    Include at least 1 carousel/document post per week — carousels get 7% engagement
+    vs 4.5% for text-only. Remaining posts should be text-only.
+  strongest_post_day: "Tuesday — consistently the highest-performing day across all data"
+  notes: >
+    Adjust posts_per_week to 3 if you prefer a more sustainable pace.
+    Quality always beats consistency — 3 great posts per week beats 5 mediocre ones.
+    Minimum 12 hours between posts. Reply to every comment in the first 60 minutes (golden hour).

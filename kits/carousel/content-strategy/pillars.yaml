@@ -1,0 +1,26 @@
+# Content Pillars
+# Populated during onboarding — defines the themes and cadence for carousel content
+
+pillars: []
+  # - name: "Expertise & Education"
+  #   allocation: 35
+  #   description: ""
+  #   example_angles: []
+  # - name: "Personal Stories"
+  #   allocation: 25
+  #   description: ""
+  #   example_angles: []
+  # - name: "Industry Commentary"
+  #   allocation: 20
+  #   description: ""
+  #   example_angles: []
+  # - name: "Culture & Values"
+  #   allocation: 20
+  #   description: ""
+  #   example_angles: []
+
+posting_cadence:
+  frequency: ""          # e.g., "3x per week"
+  preferred_days: []     # e.g., [Monday, Wednesday, Friday]
+  platforms: []          # e.g., [instagram, linkedin]
+  batch_preference: ""   # "one at a time" or "weekly batch"

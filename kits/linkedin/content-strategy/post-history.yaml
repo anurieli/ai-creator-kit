@@ -1,0 +1,28 @@
+# Post History
+# Running log of LinkedIn posts created with this system.
+# Used by /linkedin-post and /batch-create to enforce variety across pillars and templates.
+#
+# Schema for each entry:
+#   date:      "YYYY-MM-DD"          — date the post was written (or published)
+#   topic:     "short topic label"   — what the post was about, in plain language
+#   pillar:    "pillar name"         — which content pillar this post falls under
+#   template:  "template-name"       — which template was used (e.g., story-lesson, listicle)
+#   hook_type: "hook type"           — bold / story / question / number / pattern-interrupt / vulnerability
+#   status:    "draft|published"     — current status of the post
+#   file:      "path/to/draft.md"    — path to the saved draft file
+#
+# Add entries at the top of the list (most recent first).
+# The /linkedin-post skill reads the last 5-10 entries to check for variety.
+# The /batch-create skill reads the last 10 entries to plan a balanced week.
+#
+# Example entry (remove the '#' to activate):
+#
+# - date: "2026-04-01"
+#   topic: "Why most hiring processes select for the wrong thing"
+#   pillar: "Expertise & Craft"
+#   template: "contrarian-take"
+#   hook_type: "bold"
+#   status: "published"
+#   file: "posts/drafts/2026-04-01-hiring-wrong-thing.md"
+
+posts: []
