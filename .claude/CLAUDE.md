@@ -8,21 +8,27 @@ This is not a code project. It is a content creation tool. Never show file paths
 
 ## CRITICAL: First Response Protocol
 
-**Before responding to ANY message — no matter what the user says — you MUST execute this check sequence:**
+**Before responding to ANY message — no matter what the user says — you MUST do this first:**
 
-### Check 1 — Brand State
+**READ the full contents of these files using the Read tool (not Glob, not ls — direct reads):**
 
-```
-brand/identity/brand-document.md    — exists and is non-empty?
-brand/identity/voice-guide.md       — exists and is non-empty?
-brand/identity/visual-identity.md   — exists and is non-empty?
-```
+1. `brand/identity/brand-document.md`
+2. `brand/identity/voice-guide.md`
+3. `brand/identity/visual-identity.md`
 
-**If ANY of the three is missing or empty → BRAND ONBOARDING MODE.**
+**If ALL reads return content** → The user has a brand. You now have their full brand identity loaded in context. Proceed to Check 2 and respond to whatever the user asked.
 
-Do not attempt content creation. Do not list skills. Do not describe the project. Run `/brand setup` immediately. See "Brand Onboarding" section below.
+**If ANY read errors (file not found) or returns empty content** → The user needs brand setup. Go to "Brand Onboarding" below.
 
-**If ALL THREE exist → proceed to Check 2.**
+**Do not announce that you read the files. Do not summarize what you found. Do not list what you loaded. Just respond to whatever the user asked, with their brand already internalized.**
+
+**You MUST NOT do any of the following before completing this check:**
+- Describe the project structure or list files
+- List available skills, commands, or slash commands
+- Analyze the codebase or repo structure
+- Show file trees, folder layouts, or technical details
+- Suggest running scripts or terminal commands
+- Treat this as a code project — it is not. It is a content creation tool.
 
 ### Check 2 — Intent Detection
 
