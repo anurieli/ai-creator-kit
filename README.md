@@ -2,9 +2,21 @@
 
 **One folder. One brand. Every content format.**
 
-This is a portable AI content studio powered by Claude. It builds your brand from scratch, then creates newsletters, carousels, LinkedIn posts, and short-form video scripts — all in your voice, all from one place.
+An AI content studio that builds your brand from scratch, then creates newsletters, carousels, LinkedIn posts, and short-form video scripts — all in your voice, all from one place.
 
-You open it. You talk. It handles the rest.
+---
+
+## Set up in one prompt
+
+Paste this into Claude Code and hit enter:
+
+```
+Download and run https://raw.githubusercontent.com/anurieli/ai-creator-kit/main/setup.sh to set up my content creation workspace, then start the onboarding.
+```
+
+That's it. Claude downloads the kit, sets it up on your machine, and walks you through building your brand. No git, no terminal commands, no configuration.
+
+**Don't have Claude Code yet?** Get it at [claude.ai/download](https://claude.ai/download) or [docs.anthropic.com/claude-code](https://docs.anthropic.com/en/docs/claude-code).
 
 ---
 
